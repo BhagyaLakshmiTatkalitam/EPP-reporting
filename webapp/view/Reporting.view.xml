@@ -1,0 +1,11 @@
+<mvc:View controllerName="eppreporting.controller.Reporting"
+    xmlns:mvc="sap.ui.core.mvc"
+    xmlns="sap.m"
+    >
+    <Page showHeader="true" title="Procurement Analytics Dashboard">
+       <Annotations Target="SEPMRA_ALP_SO_ANA_SRV.Z_SEPMRA_C_ALP_QUARTERVHType/DifferenceAmount">
+    <Annotation Term="Analytics.Measure" Bool="true" />
+    <Annotation Term="Analytics.AccumulativeMeasure" Bool="false" />
+</Annotations>
+    </Page>
+</mvc:View>

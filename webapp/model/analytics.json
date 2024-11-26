@@ -1,0 +1,92 @@
+{
+    "kpiData": {
+      "requestStats": [
+        {
+          "month": "Feb",
+          "value": 31.1
+        },
+        {
+          "month": "Mar",
+          "value": 31.7
+        },
+        {
+          "month": "Apr",
+          "value": 28.1
+        },
+        {
+          "month": "May",
+          "value": 25.8
+        },
+        {
+          "month": "Jun",
+          "value": 21.9
+        },
+        {
+          "month": "Jul",
+          "value": 7.8
+        }
+      ],
+      "categoryDistribution": {
+        "Personal Equipment": 55.0,
+        "Computer Systems": 30.5,
+        "Other": 14.5
+      },
+      "topCustomers": [
+        {
+          "name": "Anav Ideon",
+          "revenue": 941.8
+        },
+        {
+          "name": "Jologa",
+          "revenue": 847.6
+        },
+        {
+          "name": "HEPA Tec",
+          "revenue": 754.6
+        }
+      ],
+      "salesOrders": [
+        {
+          "orderNumber": "500009072",
+          "productCode": "BP-9182-8211",
+          "description": "Widescreen Monitor",
+          "category": "Personal Equipment",
+          "contact": "Sabine Mayer",
+          "warehouse": "BP-1232-1323",
+          "amount": 200000.00
+        },
+        {
+          "orderNumber": "500009073",
+          "productCode": "BP-1232-8381",
+          "description": "Video Conferencing Suite",
+          "category": "Communication Systems",
+          "contact": "Denise Smith",
+          "warehouse": "BP-1982-8127",
+          "amount": 721800.00
+        }
+      ],
+      "kpis": [
+        {
+          "title": "Request Submission Rate",
+          "value": 245,
+          "unit": "requests/month",
+          "trend": "up",
+          "trendValue": "5%"
+        },
+        {
+          "title": "Processing Time",
+          "value": 3.2,
+          "unit": "days",
+          "trend": "down",
+          "trendValue": "12%"
+        },
+        {
+          "title": "Compliance Rate",
+          "value": 94.5,
+          "unit": "%",
+          "trend": "up",
+          "trendValue": "2.3%"
+        }
+      ]
+    }
+  }
